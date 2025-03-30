@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de Relato de Problemas com Equipamentos Escolares">
+    <meta name="author" content="Davi Andrade">
+    <title>Relatar Problema - Universidade</title>
+    <link rel="stylesheet" href="./css/manutencao.css">
+    <link rel="icon" href="./img/Bahia.png" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="header-logo">
+                <img src="./img/Bahia.png" alt="Logotipo da Universidade Bahia" aria-label="Logotipo da Universidade Bahia">
+                <h1>Universidade GLPI</h1>
+            </div>
+        </header>
+
+        <section class="form-section">
+            <div class="form-container">
+                <h2>Relate um Problema no Equipamento</h2>
+                <form action="sucesso.html" method="POST">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                    <label for="equipamento">Equipamento com problema:</label>
+                    <input type="text" id="equipamento" name="equipamento" placeholder="Nome do equipamento" required>
+
+                    <label for="descricao">Descrição do problema:</label>
+                    <textarea id="descricao" name="descricao" placeholder="Descreva o problema..." required></textarea>
+
+                    <button type="submit">Enviar Relato</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>Desenvolvido por: Davi Andrade</p>
+        </footer>
+    </main>
+</body>
+
+</html>

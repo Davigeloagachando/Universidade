@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #180026;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.header-logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.form-container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.form-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-container textarea {
+    height: 120px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #180026;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #87efda;
+}
+
+footer {
+    background-color: #180026;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a {
+    color: #87efda;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+    }
+    .form-container h2 {
+        font-size: 1.5rem;
+    }
+}
